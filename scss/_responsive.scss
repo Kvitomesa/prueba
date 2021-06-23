@@ -1,0 +1,11 @@
+.header__navbar--flex{
+	justify-content: flex-end;
+}
+	
+@media only screen and (max-width: 768px){
+.contenedorHome__columna2--marg{
+	margin-top: 40px;
+	padding-top: 0px;
+	border-top: 0px;
+}
+}

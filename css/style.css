@@ -1,0 +1,141 @@
+.boton, .contenedor__botonIniciarSesion, .contenedor__botonRegistrate, .contenedor__botonConsulta, .contenedor__botonIniciarSesion:hover, .contenedor__botonRegistrate:hover, .contenedor__botonConsulta:hover {
+  border-radius: 40px;
+  height: 40px;
+  justify-content: center;
+  align-content: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px 20px;
+  width: 250px; }
+
+.contenedor__botonIniciarSesion {
+  background-color: #9b51e0;
+  color: #9eff00;
+  margin-top: 10px;
+  font: italic bolder 20px "Roboto", sans-serif; }
+
+.contenedor__botonRegistrate {
+  background-color: #9eff00;
+  color: #9b51e0;
+  font: italic bolder 20px "Roboto", sans-serif; }
+
+.contenedor__botonConsulta {
+  background-color: #9eff00;
+  color: #9b51e0;
+  font: italic bold 15px "Roboto", sans-serif; }
+
+.contenedor__botonConsulta--flex {
+  justify-content: flex-end; }
+
+.contenedor__botonIniciarSesion:hover {
+  background-color: #cd98ff;
+  color: #9eff00;
+  margin-top: 10px;
+  font: italic bolder 20px "Roboto", sans-serif;
+  box-shadow: 0px 5px 5px #9b51e0; }
+
+.contenedor__botonRegistrate:hover {
+  background-color: #d6ff93;
+  color: #9b51e0;
+  font: italic bolder 20px "Roboto", sans-serif;
+  box-shadow: 0px 5px 5px #9eff00; }
+
+.contenedor__botonConsulta:hover {
+  background-color: #d6ff93;
+  color: #9b51e0;
+  font: italic bold 15px "Roboto", sans-serif;
+  box-shadow: 0px 5px 5px #9eff00; }
+
+.borderPadding, .contenedorServicios__columnas--marg, .contenedorHome__columna2--marg, .contenedorNosotros__columna2--marg, .contenedorContacto__columna2--marg, .footer__eslogan--marg {
+  padding-top: 0px;
+  border-top: 0px; }
+
+.contenedorServicios__columnas--marg {
+  margin-top: 30px;
+  margin-left: 20px; }
+
+.contenedorHome__columna2--marg {
+  margin-top: 100px; }
+
+.contenedorNosotros__columna2--marg {
+  margin-top: 100px; }
+
+.contenedorContacto__columna2--marg {
+  margin-top: 80px;
+  margin-bottom: 60px; }
+
+.header__navbar--marg {
+  margin-top: 1%; }
+
+.footer__eslogan--marg {
+  margin-top: 0px; }
+
+.footer__imgRRSS--marg {
+  margin-top: 30px;
+  padding: 20px; }
+
+.contenedorNosotros__imgchica--marg {
+  margin-left: 120px;
+  margin-top: 80px; }
+
+.contenedorNosotros__imgchico--marg {
+  margin-left: 70px;
+  margin-top: 80px; }
+
+.header__navbar--flex {
+  justify-content: flex-end; }
+
+@media only screen and (max-width: 768px) {
+  .contenedorHome__columna2--marg {
+    margin-top: 40px;
+    padding-top: 0px;
+    border-top: 0px; } }
+
+.header__navbar--bg {
+  background-color: #9b51e0; }
+
+.header__logo {
+  width: 30px; }
+
+.header__items {
+  text-transform: uppercase;
+  font: italic 12px "Roboto", sans-serif; }
+
+.contenedorServicios__imgapp2 {
+  width: 100%; }
+
+.contenedorServicios__imgapp3 {
+  width: 100%; }
+
+.contenedor__titulos {
+  font: italic bolder 25px "Roboto", sans-serif;
+  color: #9b51e0;
+  text-transform: uppercase; }
+
+.contenedor__subtitulos {
+  font: italic bold 18px "Roboto", sans-serif;
+  color: #9b51e0; }
+
+.contenedor__parrafos {
+  grid-area: texto;
+  font: 12px "Roboto", sans-serif;
+  line-height: 20px; }
+
+.contenedorhome__columna1 {
+  width: 100%;
+  margin-top: 30px; }
+
+.contenedorNosotros__imgchica {
+  width: 50%; }
+
+.contenedorContacto__imgchico {
+  width: 80%; }
+
+.footer__imgRRSS {
+  width: 80px; }
+
+.footer__eslogan {
+  color: #9b51e0;
+  font: italic bolder 10px "Roboto", sans-serif;
+  text-transform: uppercase; }

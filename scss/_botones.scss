@@ -1,0 +1,62 @@
+$fuenteBoton1: italic bolder 20px 'Roboto', sans-serif;
+$fuenteBoton2: italic bold 15px 'Roboto', sans-serif;
+$violeta:rgba(155, 81, 224, 1);
+$violetaClaro:rgba(205, 152, 255, 1);
+$verde:rgba(158, 255, 0, 1);
+$verdeClaro:rgba(214, 255, 147, 1);
+
+.boton{
+	border-radius: 40px; 
+	height: 40px;
+	justify-content: center;
+	align-content: center;
+	text-decoration: none; 
+	text-transform: uppercase; 
+	border: none;
+	padding: 10px 20px;
+	width: 250px;
+}
+.contenedor__botonIniciarSesion{
+	@extend .boton;
+	background-color: $violeta;
+	color: $verde;  
+	margin-top: 10px;
+	font: $fuenteBoton1;
+}
+.contenedor__botonRegistrate{
+	@extend .boton;
+	background-color: $verde; 
+	color: $violeta;
+	font: $fuenteBoton1;	
+}
+.contenedor__botonConsulta{
+	@extend .boton;
+	background-color: $verde; 
+	color: $violeta;
+	font: $fuenteBoton2;	
+}
+.contenedor__botonConsulta--flex{
+	justify-content: flex-end;
+}
+.contenedor__botonIniciarSesion:hover{
+	@extend .boton;
+	background-color: $violetaClaro;
+	color: $verde;  
+	margin-top: 10px;
+	font: $fuenteBoton1;
+	box-shadow: 0px 5px 5px $violeta;
+}
+.contenedor__botonRegistrate:hover{
+	@extend .boton;
+	background-color: $verdeClaro; 
+	color: $violeta;
+	font: $fuenteBoton1;
+	box-shadow: 0px 5px 5px $verde;	
+}
+.contenedor__botonConsulta:hover{
+	@extend .boton;
+	background-color: $verdeClaro; 
+	color: $violeta;
+	font: $fuenteBoton2;
+	box-shadow: 0px 5px 5px $verde;	
+}

@@ -1,0 +1,58 @@
+@import "botones";
+@import "margenes";
+@import "responsive";
+$violeta:rgba(155, 81, 224, 1);
+$fuenteTitulos: italic bolder 25px 'Roboto', sans-serif;
+$fuenteSubtitulos: italic bold 18px 'Roboto', sans-serif;
+$fuenteParrafos: 12px 'Roboto', sans-serif;
+$fuenteItems: italic 12px 'Roboto', sans-serif;
+$fuenteEslogan: italic bolder 10px 'Roboto', sans-serif;
+
+.header__navbar--bg{
+	background-color: $violeta;
+}
+.header__logo{
+	width: 30px;
+}
+.header__items{
+	text-transform: uppercase;
+	font: $fuenteItems;
+}
+.contenedorServicios__imgapp2{
+	width: 100%;
+}
+.contenedorServicios__imgapp3{
+	width: 100%;
+}
+.contenedor__titulos{
+	font: $fuenteTitulos;
+	color: $violeta;
+	text-transform: uppercase;
+}
+.contenedor__subtitulos{
+	font: $fuenteSubtitulos;
+	color: $violeta;
+}
+.contenedor__parrafos{
+	grid-area: texto;
+	font: $fuenteParrafos;
+	line-height: 20px;
+}
+.contenedorhome__columna1{
+	width: 100%;
+	margin-top: 30px;
+}
+.contenedorNosotros__imgchica{
+	width: 50%;
+}
+.contenedorContacto__imgchico{
+	width: 80%;
+}
+.footer__imgRRSS{
+	width: 80px;
+}
+.footer__eslogan{
+	color: $violeta;
+	font: $fuenteEslogan;
+	text-transform: uppercase;
+}

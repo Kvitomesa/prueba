@@ -1,0 +1,41 @@
+.borderPadding{
+	padding-top: 0px;
+	border-top: 0px;
+}
+.contenedorServicios__columnas--marg{
+	@extend .borderPadding;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.contenedorHome__columna2--marg{
+	@extend .borderPadding;
+	margin-top: 100px;
+}
+.contenedorNosotros__columna2--marg{
+	@extend .borderPadding;
+	margin-top: 100px;
+}
+.contenedorContacto__columna2--marg{
+	@extend .borderPadding;
+	margin-top: 80px;
+	margin-bottom: 60px;
+}
+.header__navbar--marg{
+	margin-top: 1%;
+}
+.footer__eslogan--marg{
+	margin-top: 0px;
+	@extend .borderPadding;
+}
+.footer__imgRRSS--marg{
+	margin-top: 30px;
+	padding: 20px;
+}
+.contenedorNosotros__imgchica--marg{
+	margin-left: 120px;
+	margin-top: 80px;
+}
+.contenedorNosotros__imgchico--marg{
+	margin-left: 70px;
+	margin-top: 80px;
+}
